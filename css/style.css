@@ -177,8 +177,7 @@ footer a:hover,
 /*==============IMAGES==============*/
 
 #bazsi {
-  border: 1px solid grey;
-  border-radius: 1.5rem;
+  border-radius: 1rem;
   box-shadow: .5rem .5rem .5rem rgba(0, 0, 0, .5);
 }
 
@@ -188,6 +187,10 @@ footer a:hover,
   box-shadow: .5rem .5rem .5rem rgba(0, 0, 0, .5); 
   height: 22rem;
   margin-bottom: 1rem;
+}
+
+.project:hover {
+  box-shadow: .1rem .1rem .5rem .4rem rgba(0, 0, 0, .9); 
 }
 
 .contactinfo {
@@ -209,6 +212,11 @@ footer a:hover,
 .cv {
   box-shadow: .3rem .3rem 1rem rgba(0, 0, 0, .7);
 }
+
+iframe {
+  margin: 50px auto 100px;
+}
+
 /*============= MEDIA QUERIES =============*/
 
 /* Devices under 1199px (xl) */
